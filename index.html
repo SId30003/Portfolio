@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">SIDDHANT WADHAI</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</li></a>
+                    <li><a href="/">About</li></a>
+                    <li><a href="/">Projects</li></a>
+                    <li><a href="/">Contact</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">siddhant</span>
+                <div>and I am an enthusiast</div>
+                <span id="element"></span>
+
+            </div>
+            <div class="rightsection">
+                <img src="resources/Lorem.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="section_about">
+            <div class="about">
+                <h1>About</h1>
+            </div>
+            <div class="MEE">
+                <img src="resources/meriyal.jpg" alt="">
+                <span class="about_info">
+                    I am a Front End software developer
+                    <div>
+                        and aspiring full stack developer, I am seeking for oprtunities </div>
+                    <div>to utilize my clean skills of web technologies...</div>
+                    <div>
+                        <a href="resources/My Resume.pdf">
+                            <button class="cv">MY CV</button>
+                        </a>
+                    </div>
+                </span>
+
+            </div>
+            <div>
+
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+
+            <h1>Skills</h1>
+            <div class="bg_color">
+
+                <img class="Lavender" src="resources/lavender.jpg" alt="">
+                <img class="LOGO" src="resources/HTML.png" alt="">
+                <img class="LOGO2" src="resources/CSS.png" alt="">
+                <img class="LOGO3" src="resources/js.png" alt="">
+                <div class="vertical"></div>
+                <div class="written">
+                    <ol>
+                        <li>
+                            HTML: Writting clen codes and making it easy to read document.
+                        </li>
+                        <li>
+                            CSS: Designing beautiful Webpages with better understanding of attributes.
+                        </li>
+                        <li>
+                            Javascript: Creating dynamic output of web pages using better understanfing over Javascript.
+                        </li>
+                    </ol>
+                </div>
+
+
+            </div>
+            <div>
+                <p class="other">Other Skills</p>
+            </div>
+            <div>
+                <img class="cpp" src="resources/C++.png" alt="">
+                <img class="Mongo" src="resources/Mongo.png" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="projects">
+            <div class="proj">
+                <h1>PROJECTS</h1>
+            </div>
+            <div class="projectlist">
+                <div>
+                    <h2>Linkedin Clone</h2>
+                    <p>Created a Linkedin clone web site which is fully dynamic an accesible,
+                        website can be accessed and is programmed with javascript.</p>
+                </div>
+                <div class="SPACE"></div>
+                <div>
+                    <h2>Temperature Converter</h2>
+                    <p>Temerature converter Web page that dynamically coverts temperature from degree cescius to
+                        faranite,
+                        and faranite to degree celcius, well programmed using javascript</p>
+                </div>
+            </div>
+
+        </section>
+        <hr>
+        <h1 class="CNT">CONTACT ME</h1>
+        <div class="contact-container" id="contact-id" data-aos="fade-right">
+
+            <div class="contact">
+                <form class="contact-form" action="#">
+                    <input type="text" id="name" name="name" placeholder="Enter your Name" /><br />
+                    <input type="email" id="email" name="email" required placeholder="Enter your Email" /><br />
+                    <textarea id="message" name="message" rows="4" required
+                        placeholder="Enter your Message"></textarea><br />
+                    <input type="submit" value="Submit" id="submit-btn" />
+                    <br>
+                    <span class="cpy"> Copyright © 2023</span>
+                </form>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="footer-first">
+            CONNECT
+        </div>
+        <div class="footer">
+
+            <div class="footer-second">
+                <ul>
+                    <a href="">
+                        <li>Home</li>
+                    </a>
+                    <a href="">
+                        <li>ABOUT</li>
+                    </a>
+                    <a href="">
+                        <li>PROJECTS</li>
+                    </a>
+                    <a href="">
+                        <li>CONTACT</li>
+                    </a>
+                </ul>
+
+            </div>
+            <span class="LINE"></span>
+            <div class="third">
+                Address: <br>
+                123,
+                the next gen, <br>
+                glass building <br>
+                nagpur, maharashtra
+            </div>
+        </div>
+        <div class="follow">FOLLOW</div>
+        <div class="colorlogo">
+            <a href="https://www.linkedin.com/in/siddhant-wadhai-518b5524a/">
+            <img class="log1" src="resources/linkedin.png" alt="">
+           </a>
+           <a href="https://github.com/SId30003">
+            <img class="log" src="resources/github.png" alt="">
+           </a>
+           <a href="https://www.instagram.com/code_withsid/">
+            <img class="log2" src="resources/insta.png" alt="">
+           </a>
+        </div>
+        <div class="footer-rights">
+            copywrite &#169 www.siddhantsportfolio | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Web</i> Developer', 'software developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
